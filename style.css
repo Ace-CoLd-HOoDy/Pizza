@@ -78,7 +78,8 @@ header {
     font-size: 22px;
     margin-bottom: 22px;
 }
-.hero-text_2{
+
+.hero-text_2 {
     font-size: 22px;
 }
 
@@ -180,9 +181,10 @@ header {
     margin-right: 450px;
 }
 
-.pizza-ingredients{
- display: flex;
+.pizza-ingredients {
+    display: flex;
 }
+
 .pizza-main_ingredients_img {
     width: 200px;
 }
@@ -211,7 +213,8 @@ header {
 .pizza-text {
     font-family: 'Salsa', cursive;
 }
-.pizza-list-nasoloda{
+
+.pizza-list-nasoloda {
     font-size: 35px;
     font-family: 'DM Serif Display', serif;
 }
