@@ -4,14 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Рецепт піцци</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <div class="header-container">
-            <a class="img">
+        <div class="header-container container">
+            <a class="img" href="#">
                 <img class="logo" alt="Типу... Логотип" src="Images/logo.png">
             </a>
             <ul class="header-list">
@@ -27,17 +39,17 @@
     <main class="content">
         <!-- Головна секція -->
         <section class="hero">
-            <div class="hero-container сщтефштук">
+            <div class="hero-container container">
                 <img class="hero-img" src="Images/hero-img.png" alt="domino`s_2.0">
                 <div class="hero-wrap">
                     <h1 class="hero-title">Приготуємо смачнющу піцу!</h1>
+                    <p class="hero-text">Тонка, соковита, м'яка, ніжна, тепла, ароматна - це все про неї,
+                        про піцу! Ідеальне поєднання продуктів: тягнеться сир і капає сік
+                        з помідорів - чи це не рай для гурмана? Пропоную вам приготувати
+                        піцу разом!</p>
+                    <p class="hero-text">Побалуйте внутрішнього ласунчика
+                    </p>
                 </div>
-                <p class="hero-text">Тонка, соковита, м'яка, ніжна, тепла, ароматна - це все про неї,
-                    про піцу! Ідеальне поєднання продуктів: тягнеться сир і капає сік
-                    з помідорів - чи це не рай для гурмана? Пропоную вам приготувати
-                    піцу разом!</p>
-                <p class="hero-text">Побалуйте внутрішнього ласунчика
-                </p>
             </div>
         </section>
         <!-- Інгрідієнти для тіста -->
@@ -55,8 +67,8 @@
                     <p class="dough-text">Залий теплою водою дріжджі, посоли суміш, ретельно перемішай. До
                         розчину дріжджів додай оливкову олію та муку. Заміси тісто. Постав
                         тісто у тепле місце на півгодини, аби воно як слід піднялося.</p>
-                    <img src="Images/dough.png" alt="Інгрідієнти" class="dough-ing">
                 </div>
+                <img src="Images/dough.png" alt="Інгрідієнти" class="dough-ing">
             </div>
         </section>
         <!-- Начинка -->
@@ -84,37 +96,56 @@
         <!-- Моя улюбленна піцца -->
         <section class="pizza">
             <div class="pizza-container container">
-                <div class="pizza-wrap">
-                    <h2 class="pizza-title">Моя улюбленна піцца - це 5 сирів у Domino`s, ось її інгрідієнти:</h2>
-                    <img src="Images/piat-syrov-300dpi-min.webp" alt="5 сирів" class="pizza-img">
-                    <ul class="pizza-list">
-                        <li class="pizza-item">Пармезан,</li>
-                        <img src="Images/syr-parmezan-kupit.jpg" alt="Пармезан" class="parmezan">
-                        <li class="pizza-item">Моцарела,</li>
-                        <img src="Images/Моццарела.jpg" alt="Моцарела" class="mozzarela">
-                        <li class="pizza-item">Чеддер,</li>
-                        <img src="Images/Чеддер.jpg" alt="Чеддер" class="cheddar">
-                        <li class="pizza-item">Фета,</li>
-                        <img src="Images/Фетта.jpg" alt="Фета" class="feta">
-                        <li class="pizza-item">Бергадер Блю,</li>
-                        <img src="Images/Блю.jpg" alt="Бергадер Блю" class="blue">
-                        <li class="pizza-item">соус Альфредо.</li>
-                        <img src="Images/Альфредо.jpg" alt="Соус Альфредо" class="alfredo">
-                    </ul>
-                    <h2 class="pizza-title">Ось інгрідієнти які я зазвичай додаю:</h2>
-                    <ul class="pizza-list">
-                        <li class="pizza-item">Помідори,</li>
-                        <img src="Images/tomato.jpg" alt="Помідори" class="tomato">
-                        <li class="pizza-item">шинку,</li>
-                        <img src="Images/shinka.jpg" alt="Шинка" class="shinka">
-                        <li class="pizza-item">cирні бортики.</li>
-                        <img src="Images/Cheesy.jpg" alt="Сирний бортик" class="cheesy">
-                    </ul>
+                <h2 class="pizza-title">Моя улюбленна піцца - це 5 сирів у Domino`s,
+                    <div class="pizza-main_ingredients">
+                        <img src="Images/piat-syrov-300dpi-min.webp" alt="5 сирів" class="pizza-img">
+                        <h2 class="pizza-ingredients-title"><u>Ось її інгрідієнти:</u></h2>
+                        <ul class="pizza-list">
+                            <li class="pizza-item">Пармезан,
+                                <img src="Images/syr-parmezan-kupit.jpg" alt="Пармезан" class="pizza-img_parmezan">
+                            </li>
+                            <li class="pizza-item">Моцарела,
+                                <img src="Images/Моццарела.jpg" alt="Моцарела" class="pizza-main_ingredients_img">
+                            </li>
+                            <li class="pizza-item">Чеддер,
+                                <img src="Images/Чеддер.jpg" alt="Чеддер" class="pizza-img-chadder">
+                            </li>
+                            <li class="pizza-item">Фета,
+                                <img src="Images/Фетта.jpg" alt="Фета" class="pizza-main_ingredients_img">
+                            </li>
+                            <li class="pizza-item">Бергадер Блю,
+                                <img src="Images/Блю.jpg" alt="Бергадер Блю" class="pizza-main_ingredients_img">
+                            </li>
+                            <li class="pizza-item">соус Альфредо.
+                                <img src="Images/Альфредо.jpg" alt="Соус Альфредо" class="pizza-img-Alfredo">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pizza-other_ingredients">
+                        <h2 class="pizza-ingredients-title"><u>Ось додаткові інгрідієнти які я зазвичай додаю:</u></h2>
+                        <ul class="pizza-list">
+                            <li class="pizza-item">Помідори,
+                                <img src="Images/tomato.jpg" alt="Помідори" class="pizza-other_ingredients_img">
+                            </li>
+                            <li class="pizza-item">шинку,
+                                <img src="Images/shinka.jpg" alt="Шинка" class="pizza-other_ingredients_img">
+                            </li>
+                            <li class="pizza-item">сирні бортики.
+                                <img src="Images/Cheesy.jpg" alt="Сирний бортик" class="pizza-other_ingredients_img">
+                            </li>
+                        </ul>
+                    </div>
                     <p class="pizza-text">Справжня насолода для всіх сироманів!
-                         Цілих 5 сирів в одній піці: ніжний вершковий сир, витриманий пармезан,
-                          класичний твердий сир, пікантний дор блю і білосніжна моцарела на вершковій основі  .
-                           Традиційно подається з ягідним соусом.</p>
-                </div>
+                        Цілих 5 сирів в одній піці:
+                    <ul class="pizza-list-nasoloda">
+                        <li class="pizza-item-nasoloda">Ніжний вершковий сир,</li>
+                        <li class="pizza-item-nasoloda">Витриманий пармезан,</li>
+                        <li class="pizza-item-nasoloda">Класичний твердий сир,</li>
+                        <li class="pizza-item-nasoloda">Пікантний дор блю</li>
+                        <li class="pizza-item-nasoloda">І білосніжна моцарела на вершковій основі.</li>
+                        Традиційно подається з ягідним соусом.
+                    </ul>
+                    </p>
             </div>
         </section>
         <footer class="footer">
