@@ -157,7 +157,7 @@ header {
     background-color: rgb(246, 202, 120);
 }
 
-.pizza-title {
+.pizza-container {
     color: rgb(113, 27, 12);
     font-size: 40px;
     padding-top: 50px;
@@ -180,6 +180,7 @@ header {
     font-size: 22px;
     font-family: 'Nanum Brush Script', cursive;
     margin-right: 450px;
+    font-weight: 700;
 }
 
 .pizza-ingredients {
@@ -201,7 +202,6 @@ header {
 }
 
 .pizza-img-Alfredo {
-    margin-top: 15px;
     height: 100px;
     width: 195px;
 }
@@ -214,11 +214,13 @@ header {
 .pizza-text {
     font-family: 'Salsa', cursive;
     font-size: 30px;
+    font-weight: 900;
 }
 
 .pizza-list-nasoloda {
     font-size: 35px;
     font-family: 'DM Serif Display', serif;
+    font-weight: 600;
 }
 
 /* Футер */
