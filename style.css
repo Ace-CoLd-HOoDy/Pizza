@@ -20,7 +20,6 @@ a {
 .container {
     margin: 0 auto;
     width: 1200px;
-    padding: 0 20px;
 }
 
 /* хедер */
@@ -168,12 +167,12 @@ header {
     text-align: center;
     font-family: 'Lemon', serif;
     text-decoration: underline;
+    margin-bottom: 35px;
 }
 
 .pizza-img {
     width: 1100px;
     height: 500px;
-    padding: 35px;
 }
 
 .pizza-ingredients-title {
@@ -181,6 +180,10 @@ header {
     font-family: 'Lemon', serif;
     font-size: 30px;
     color: rgb(113, 27, 12);
+}
+
+.margin{
+    margin-bottom: 37px;
 }
 
 .pizza-list {
@@ -196,7 +199,6 @@ header {
 .pizza-item {
     flex-direction: column;
     display: flex;
-    margin-bottom: 15px;
     align-items: center;
 }
 
@@ -204,6 +206,11 @@ header {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-top: 15px;
+}
+
+.pizza-other_ingredients{
+    width: 40%;
 }
 
 .pizza-main_ingredients_img {
@@ -214,7 +221,7 @@ header {
 
 .pizza-other_ingredients_img {
     width: 200px;
-    height: 110px;
+    height: 120px;
     border-radius: 7%;
 
 }
