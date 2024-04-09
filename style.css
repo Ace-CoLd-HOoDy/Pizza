@@ -164,7 +164,6 @@ header {
 .pizza-title {
     color: rgb(113, 27, 12);
     font-size: 40px;
-    text-align: center;
     font-family: 'Lemon', serif;
     text-decoration: underline;
     margin-bottom: 35px;
@@ -200,6 +199,7 @@ header {
     flex-direction: column;
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .pizza-ingredients {
@@ -207,6 +207,10 @@ header {
     justify-content: center;
     gap: 50px;
     margin-top: 15px;
+}
+
+.pizza-main_ingredients{
+    width: 40%;
 }
 
 .pizza-other_ingredients{
@@ -232,16 +236,24 @@ header {
     color: rgb(113, 27, 12);
     font-size: 30px;
     padding-top: 30px;
-    text-align: center;
 }
 
 .pizza-list-nasoloda {
+    padding-top: 30px;
+}
+
+.pizza-item-nasoloda{
+    font-family: 'Lemon', serif;
     font-weight: 600;
     color: rgb(113, 27, 12);
     font-size: 25px;
-    padding-top: 30px;
-    text-align: center;
-    font-family: 'Lemon', serif;
+}
+
+.text{
+    font-weight: 900;
+    color: rgb(168, 49, 28);
+    margin-top: 10px;
+    font-size: 30px;
 }
 
 /* Футер */
